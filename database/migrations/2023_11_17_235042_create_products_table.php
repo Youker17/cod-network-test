@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->decimal('price');
-            $table->string('image')->default("https://alppetro.co.id/dist/assets/images/default.jpg");
+            $table->string('image')->default("default.jpg");
             $table->string('description');
             $table->timestamps();
         });
